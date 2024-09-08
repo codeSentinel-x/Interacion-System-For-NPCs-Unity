@@ -1,6 +1,6 @@
 # Interaction system for NPCs
 ## _Made with **Unity Engine**_
-> Welcome to **My new side project**, that I'll publish as asset in **Unity Asset Store**. 
+ Welcome to **My new side project**, that I'll publish as asset in **Unity Asset Store**. 
 
 ### What's new?
 - **Nothing, I just created this!** 
