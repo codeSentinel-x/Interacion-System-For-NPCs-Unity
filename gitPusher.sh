@@ -22,3 +22,4 @@ commitHash=$(git log -1 --pretty=format:"%H")
 commitUrl=$(echo "$repoUrl" | sed 's/\.git$/\/commit\/'"$commitHash"'/')
 
 echo "Commit: $commitUrl"
+#
