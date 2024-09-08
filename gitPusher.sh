@@ -4,14 +4,16 @@ if [ -z "$1" ]; then
     echo -e "\033[31mNo commit message provided.\033[0m"
     exit 1
 fi
-    git add --all
+
+git add --all
+
 if [ -z "$2" ]; then
     echo -e "\033[31mNo commit description provided.\033[0m"
     git commit -m "$1"
-fi
 else
-    git commit -m "$1" "$2"
-end else
+    git commit -m "$1" -m "$2"
+fi
+
 
 git push -u origin master               #This addition also clear all outpur from git push:     > /dev/null 2>&1 
 
