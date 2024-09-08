@@ -56,5 +56,9 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Npc interacion system.sln"
+    "dotnet.defaultSolution": "Npc interacion system.sln",
+    "cSpell.words": [
+        "Chattable",
+        "SCRIPTNAME"
+    ]
 }
