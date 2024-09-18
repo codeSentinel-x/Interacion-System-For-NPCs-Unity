@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Belt
   m_EditorClassIdentifier: 
   _itemSprite: {fileID: 21300000, guid: 6858a15e5082cf34b9ee3167e90403d3, type: 3}
+  _rarity: 2
   _name: Belt
   _shortDescription: <i>My father used it different...</i>
   _longDescription: This item provide slighty more inventory storage

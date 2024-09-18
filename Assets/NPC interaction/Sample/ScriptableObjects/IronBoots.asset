@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: IronBoots
   m_EditorClassIdentifier: 
   _itemSprite: {fileID: 21300000, guid: 5170e0068a8cf184fb119834fa7ba0f3, type: 3}
+  _rarity: 4
   _name: Iron boots
   _shortDescription: <i>Now you can walk on lego bricks</i>
   _longDescription: Some creative item description....

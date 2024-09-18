@@ -13,7 +13,7 @@ namespace NPC_Interaction {
         [SerializeField] private string _npcName;
         [SerializeField] private List<string> _quotes = new();
         [SerializeField] private float _textInterval;
-
+        [SerializeField] private GameObject _shopCanvas;
         [Header("Enums")]
         [SerializeField] private NPC_Type _interactionType;
         [SerializeField] private NPC_QuoteType _quoteType;
@@ -51,9 +51,24 @@ namespace NPC_Interaction {
             _npcTextDisplay.Hide();
             _quoteIndex = 0;
         }
+        
         public void Interact() {
-            if (!_npcTextDisplay.gameObject.activeInHierarchy) _npcTextDisplay.Show();
-            if (_npcTextDisplay.TrySkipTextDisplay()) return;
+            switch (_interactionType) {
+                case NPC_Type.SimpleChatNPC: {
+                        if (!_npcTextDisplay.gameObject.activeInHierarchy) _npcTextDisplay.Show();
+                        if (_npcTextDisplay.TrySkipTextDisplay()) return;
+                        ChatNpcInteraction();
+                        break;
+                    }
+                    
+                case NPC_Type.ShopNPC: {
+                        ShopNpcInteraction();
+                        _shopCanvas.SetActive(true);
+                        break;
+                    }
+            }
+        }
+        public void ChatNpcInteraction() {
             switch (_quoteType) {
                 case NPC_QuoteType.Random: {
                         _npcTextDisplay.DisplayText(CustomFunctions.GetRandomElement<string>(_quotes), _textInterval);
@@ -67,6 +82,9 @@ namespace NPC_Interaction {
 
                     }
             }
+        }
+        public void ShopNpcInteraction() {
+
         }
         public string GetNpcName() {
             return _npcName;
