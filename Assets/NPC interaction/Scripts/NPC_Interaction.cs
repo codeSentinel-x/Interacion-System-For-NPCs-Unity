@@ -24,6 +24,7 @@ namespace NPC_Interaction {
         [SerializeField] private SpriteRenderer _spriteRenderer;
         [SerializeField] private TextMeshPro _npcNameDisplay;
         [SerializeField] private TextDisplay _npcTextDisplay;
+        [SerializeField] private UI_ShopDialogDisplay _ShopDialogDisplay;
         #endregion
         #region Private Variable
         private int _quoteIndex = 0;
@@ -51,7 +52,7 @@ namespace NPC_Interaction {
             _npcTextDisplay.Hide();
             _quoteIndex = 0;
         }
-        
+
         public void Interact() {
             switch (_interactionType) {
                 case NPC_Type.SimpleChatNPC: {
@@ -60,7 +61,7 @@ namespace NPC_Interaction {
                         ChatNpcInteraction();
                         break;
                     }
-                    
+
                 case NPC_Type.ShopNPC: {
                         ShopNpcInteraction();
                         _shopCanvas.SetActive(true);

@@ -15,6 +15,14 @@ MonoBehaviour:
   _itemSprite: {fileID: 21300000, guid: 6858a15e5082cf34b9ee3167e90403d3, type: 3}
   _rarity: 2
   _name: Belt
-  _shortDescription: <i>My father used it different...</i>
+  _shortDescription: My father used it different...
+  _type: 1
   _longDescription: This item provide slighty more inventory storage
   _price: 10
+  _armorBonus: 0
+  _damageBonus: 0
+  _speedBonus: 0
+  _armorMultiplier: 0
+  _speedMultiplier: 0
+  _damageMultiplier: 0
+  _additionalBagCapacity: 5

@@ -15,6 +15,14 @@ MonoBehaviour:
   _itemSprite: {fileID: 21300000, guid: 567fdd2e557fefc478f8aaa7ae56fb11, type: 3}
   _rarity: 4
   _name: Iron Armor
-  _shortDescription: <i>You are made of iron now!</i>
+  _shortDescription: You are made of iron now!
+  _type: 1
   _longDescription: This item gives you some iron, but is heavy
   _price: 25
+  _armorBonus: 12
+  _damageBonus: 0
+  _speedBonus: 0
+  _armorMultiplier: 0
+  _speedMultiplier: 0.8
+  _damageMultiplier: 1.2
+  _additionalBagCapacity: 0

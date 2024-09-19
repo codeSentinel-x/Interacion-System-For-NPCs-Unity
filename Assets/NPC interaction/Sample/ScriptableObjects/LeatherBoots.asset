@@ -15,6 +15,14 @@ MonoBehaviour:
   _itemSprite: {fileID: 21300000, guid: 29a1226f7b5e20240942612e151c3c4c, type: 3}
   _rarity: 3
   _name: Leather boots
-  _shortDescription: <i>Checkout my new shoes</i>
+  _shortDescription: Checkout my new shoes
+  _type: 1
   _longDescription: Some creative item description....
   _price: 10
+  _armorBonus: 3
+  _damageBonus: 0
+  _speedBonus: 0
+  _armorMultiplier: 0
+  _speedMultiplier: 1.1
+  _damageMultiplier: 0
+  _additionalBagCapacity: 0

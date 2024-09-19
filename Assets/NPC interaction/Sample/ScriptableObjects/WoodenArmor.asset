@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: WoodenArmor
   m_EditorClassIdentifier: 
   _itemSprite: {fileID: 21300000, guid: 541ae020fad5efc48a89a38c6218a601, type: 3}
+  _rarity: 0
   _name: Wooden Armor
-  _shortDescription: <i>Armor of the real tree harvester</i>
+  _shortDescription: Armor of the real tree harvester
+  _type: 1
   _longDescription: Some creative item description....
   _price: 20
+  _armorBonus: 8
+  _damageBonus: 0
+  _speedBonus: 0
+  _armorMultiplier: 1.1
+  _speedMultiplier: 1.1
+  _damageMultiplier: 1.4
+  _additionalBagCapacity: 0

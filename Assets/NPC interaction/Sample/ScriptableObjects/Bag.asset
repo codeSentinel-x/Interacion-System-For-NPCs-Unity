@@ -15,6 +15,14 @@ MonoBehaviour:
   _itemSprite: {fileID: 21300000, guid: 93dbc8f96dc6c00418ba8f1a8e8992e4, type: 3}
   _rarity: 1
   _name: Bag
-  _shortDescription: <i>What is inside?</i>
+  _shortDescription: What is inside?
+  _type: 1
   _longDescription: This item provide more inventory storage
   _price: 25
+  _armorBonus: 0
+  _damageBonus: 0
+  _speedBonus: 0
+  _armorMultiplier: 0
+  _speedMultiplier: 1.1
+  _damageMultiplier: 0
+  _additionalBagCapacity: 15
