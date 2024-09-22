@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
-using Unity.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace NPC_Interaction {

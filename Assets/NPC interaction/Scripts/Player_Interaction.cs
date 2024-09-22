@@ -1,13 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace NPC_Interaction.Player {
 
     public class Player_Interaction : MonoBehaviour {
         public static Player_Interaction _Instance;
-        public NPC_Interaction _currentInteraction;
+        public INPC_Chat _currentInteraction;
         [SerializeField] private KeyCode _interactionKey;
 
         void Awake() {

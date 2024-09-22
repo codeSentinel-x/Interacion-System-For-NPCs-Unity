@@ -1,5 +1,4 @@
 using NPC_Interaction.ScriptableObjects;
-using UnityEngine;
 
 namespace NPC_Interaction {
 

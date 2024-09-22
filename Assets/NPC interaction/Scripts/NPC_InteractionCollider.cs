@@ -1,15 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using NPC_Interaction.Player;
-using TMPro;
 using UnityEngine;
 
 namespace NPC_Interaction {
 
     public class NPC_InteractionCollider : MonoBehaviour {
-        private NPC_Interaction _npcInteraction;
+        private INPC_Chat _npcInteraction;
 
-        public void Setup(NPC_Interaction npc) {
+        public void Setup(INPC_Chat npc) {
             _npcInteraction = npc;
         }
         void OnTriggerEnter2D(Collider2D other) {
