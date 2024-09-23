@@ -1,3 +1,4 @@
+using NPC_Interaction.NPC_Enums;
 using UnityEngine;
 
 namespace NPC_Interaction {
@@ -6,5 +7,6 @@ namespace NPC_Interaction {
         public void Interact();
         public void HidePanel();
         public string GetNpcName();
+        public NPC_Type GetType();
     }
 }

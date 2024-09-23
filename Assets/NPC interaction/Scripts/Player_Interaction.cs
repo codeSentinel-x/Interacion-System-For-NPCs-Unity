@@ -11,10 +11,12 @@ namespace NPC_Interaction.Player {
             _Instance = this;
         }
         void Update() {
-            if (_currentInteraction == null) return;
-            if (Input.GetKeyDown(_interactionKey)) {
-                _currentInteraction.Interact();
-                Debug.Log($"Player interacted with {_currentInteraction.GetNpcName()}");
+            if (_currentInteraction != null) {
+                if (Input.GetKeyDown(_interactionKey)) {
+                    Debug.Log(_currentInteraction.GetType());
+                    _currentInteraction.Interact();
+                    Debug.Log($"Player interacted with {_currentInteraction.GetNpcName()}");
+                }
             }
         }
     }

@@ -58,6 +58,8 @@ namespace NPC_Interaction {
         public string GetNpcName() {
             return _npcName;
         }
+
+        NPC_Type INPC_Chat.GetType() => NPC_Type.ChatWithButtonsNPC;
     }
     public class MultiChoiceDialog {
         public string _quote;
